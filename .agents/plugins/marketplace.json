@@ -1,0 +1,21 @@
+{
+  "name": "banksapi",
+  "interface": {
+    "displayName": "BANKSapi"
+  },
+  "plugins": [
+    {
+      "name": "banksapi",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BANKSapi/claude-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
